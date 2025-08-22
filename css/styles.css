@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0) !important;
+  color: #ffb22c !important;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+h1 {
+  margin-top: 1%;
+  text-align: center;
+  color: #ffb22c;
+}
+button {
+  background-color: black;
+}
+#btnCrear {
+  margin: 14px;
+  margin-bottom: 24px;
+  height: 32px;
+  width: 100px;
+  background-color: black;
+  color: #ffb22c;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid;
+}
+#btnVerPedidos {
+  margin: 14px;
+  margin-bottom: 24px;
+  height: 32px;
+  width: 100px;
+  background-color: black;
+  color: #ffb22c;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid;
+}
+
+#btnEstado {
+  margin: 14px;
+  margin-bottom: 24px;
+  height: 32px;
+  width: 107px;
+  background-color: black;
+  color: #ffb22c;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid;
+}
+#formularioDelPedido {
+  color: #ffb22c;
+}
+button {
+  color: #ffb22c;
+  height: 32px;
+  width: 100px;
+  border-radius: 15px;
+  border: solid;
+  margin-top: 15px;
+}
+#plato {
+  margin: 15px;
+  height: 24px;
+  width: 107;
+  border: solid;
+  color: #ffb22c;
+  background-color: black;
+  padding: 15px;
+}
+#cantidad {
+  margin: 15px;
+  height: 24px;
+  width: 107;
+  border: solid;
+  color: #ffb22c;
+  background-color: black;
+  padding: 15px;
+}
+
+#precio {
+  margin: 15px;
+  height: 24px;
+  width: 107;
+  border: solid;
+  color: #ffb22c;
+  background-color: black;
+  padding: 15px;
+}
+select {
+  margin: 15px;
+  height: 24px;
+  width: 107;
+  border: solid;
+  color: #ffb22c;
+  background-color: black;
+}
+label {
+  font-size: x-large;
+}
+#listaPedidos {
+  display: block;
+  justify-content: center;
+  text-align: start;
+}
+.abierto {
+  display: inline-grid;
+  padding: 2%;
+}

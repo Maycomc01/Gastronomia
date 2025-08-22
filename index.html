@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Entrega-Castillo</title>
+  </head>
+  <body>
+    <h1>Gastronomía</h1>
+    <div id="consumoDeApi"></div>
+
+    <!-- BOTONES DEL MENU -->
+    <section id="Menu">
+      <button id="btnCrear">Crear Pedido</button>
+      <button id="btnVerPedidos">Ver Pedidos</button>
+      <button id="btnEstado">Estado de Pedidos</button>
+      <button id="btnEliminarCerrados">Eliminar Cerrados</button>
+    </section>
+    <!-- Formulario -->
+    <div id="formularioDelPedido">
+      <h2>Crear Nuevo Pedido</h2>
+      <form id="pedidoFormulario">
+        <div>
+          <label> Mesa N° </label>
+          <select id="mesa">
+            <option value="Selecione una mesa"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <p>
+          <label> Pedido: </label> <br />
+          <input type="text" id="plato" required /> <br />
+          <label>Cantidad:</label> <br />
+          <input type="number" id="cantidad" required /> <br />
+          <label>Precio:</label> <br />
+          <input type="number" id="precio" required /><br />
+        </p>
+        <button type="submit">ACEPTAR</button>
+      </form>
+    </div>
+    <!-- filtrar pedidos -->
+    <div id="verPedidos">
+      <h2>Ver Pedidos</h2>
+
+      <p>
+        <label>Estado:</label>
+        <select id="filtroPedido">
+          <option value="todos">Todos</option>
+          <option value="abierto">ABIERTO</option>
+          <option value="cerrado">CERRADO</option>
+        </select>
+        <button id="btnAplicarFiltro">Aplicar Filtro</button>
+      </p>
+    </div>
+    <div id="listaPedidos"></div>
+    <script src="./js/gastronomia.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
