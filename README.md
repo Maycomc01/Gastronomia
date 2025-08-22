@@ -14,3 +14,7 @@ Una aplicación web diseñada para optimizar la gestión de pedidos en entornos 
 - **CSS**
 - **JAVASCRIPT**
 - **NODE JS**
+
+## 📺 Preview
+
+[ver preview](https://maycomc01.github.io/Gastronomia/)
