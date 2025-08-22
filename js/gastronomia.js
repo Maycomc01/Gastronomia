@@ -168,7 +168,7 @@ function consumoDeApi() {
         "⛔ El reloj no esta dando la hora";
     });
 }
-setInterval(consumoDeApi, 1);
+setInterval(consumoDeApi, 100);
 consumoDeApi();
 // ---------- Eventos ----------
 document.getElementById("btnAplicarFiltro").addEventListener("click", () => {
