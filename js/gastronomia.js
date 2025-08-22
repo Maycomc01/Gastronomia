@@ -154,9 +154,9 @@ function eliminarTicketsCerrados() {
   mostrarTickets(pedidos);
 }
 //-------------Consumo de API----------
-web_api = "https://worldtimeapi.org/api/timezone/America/Argentina/Salta";
+URL = "https://worldtimeapi.org/api/timezone/America/Argentina/Salta";
 function consumoDeApi() {
-  fetch(web_api)
+  fetch(URL)
     .then((res) => res.json())
     .then((data) => {
       const hora = new Date(data.datetime).toLocaleTimeString();
